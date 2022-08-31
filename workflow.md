@@ -10,7 +10,8 @@
     * Additional rule aside from those generated using init:
     
         ```json
-        "no-multi-spaces": ["error"]
+        "no-multi-spaces": ["error"],
+        "react/prop-types": "off"
         // Additional rules to be added here in future
         ```
 6. Add `"jest": true` inside env since eslint will give `test or expect is not defined` error in `App.test.js`
